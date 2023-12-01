@@ -45,6 +45,9 @@ components:
       - {id: JKSDUP, title: Customer id, data_key: column_1}
       - {id: VJQQOR, title: Loan id, data_key: column_2}
       - {id: OJLQEN, title: Name, data_key: column_3}
+      - {id: KSBCBX, data_key: column_1, title: Amount}
+      - {id: LAPEXU, data_key: column_2, title: Closed type}
+      - {id: OETPGZ, data_key: column_1, title: ''}
     type: DataGrid
     components:
     - name: repeating_panel_1
