@@ -29,7 +29,8 @@ components:
   properties: {}
   name: label_5
   layout_properties: {column: LAPEXU}
-  data_bindings: []
+  data_bindings:
+  - {property: text, code: 'self.item[''closed_type'']'}
 - type: Link
   properties: {text: View Details, underline: true, bold: false, foreground: '#0876e8'}
   name: link_1
